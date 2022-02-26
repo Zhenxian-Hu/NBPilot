@@ -1,0 +1,1476 @@
+000053 13:16:17.198 L3 UL EMM Detach Request UL
+
+Version: 1
+NAS Release: 9, NAS Major Version: 5, NAS Minor Version: 0  
+Security Header Type: Plain NAS message, not security protected, 
+Protocol discriminator: EPS Mobility Managment  
+Message Type: Detach Request  
+Type of security context: native security context (for KSI_ASME), 
+NAS key set identifier: 4  
+Switch off: switch off, 
+Type of detach: EPS detach
+GUTI: MCC: China (460), MNC: 1, MME Group ID: 34818, MME Code: 194, M-TMSI: 3234857110
+
+  25 00 ED B0 CB 26 BF A7 E7 00 00 00 01 09 05 00 07 45 49 0B F6 64 F0 10 88 02 C2 C0 D0 00 96 00 00 00 00 00 00 
+
+
+000057 13:16:17.198 Secured L3 DL  UL-DCCH-NB ULInformationTransfer-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 3, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: UL_DCCH_Message_NB
+-   .   .message:- c1:- ulInformationTransfer-r13
+-   .   .   .   .   .criticalExtensions:- ulInformationTransfer-r13
+-   .   .   .   .   .   .   .dedicatedInfoNAS-r13
+
+Security Header Type: Security protected NAS message: Integrity protected and ciphered
+Authentication Code: 0x34 0x75 0x70 0xf5, Sequence Number: 3
+Secured NAS message:
+Integrity protected and ciphered message, content: [0x CA 8A 2A 1A 95 51 22 ED 1C E9 E9 5A 98 D1 D5]
+
+  36 00 C0 B0 CB 26 BF A7 E7 00 00 00 0F 0D 21 03 95 00 A8 0E 00 00 00 00 2E 00 00 00 00 17 00 30 15 27 34 75 70 F5 03 CA 8A 2A 1A 95 51 22 ED 1C E9 E9 5A 98 D1 D5 
+
+
+000112 13:16:22.321 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 862
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 C5 92 C1 B7 E7 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 35 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000123 13:16:23.948 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 1, SysFN: 1
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 9E 46 D7 BC E7 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 11 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000137 13:16:24.241 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 30
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 AC 93 C1 BD E7 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 01 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000154 13:16:24.251 L3 UL EMM Attach Request (L3 UL ESM PDN Connectivity Request)
+
+Version: 1
+NAS Release: 9, NAS Major Version: 5, NAS Minor Version: 0  
+Security Header Type: Plain NAS message, not security protected, 
+Protocol discriminator: EPS Mobility Managment  
+Message Type: Attach Request  
+Type of security context: native security context (for KSI_ASME), 
+NAS key set identifier: 4  
+EPS attach type: EPS only
+Old GUTI: MCC: China (460), MNC: 1, MME Group ID: 34818, MME Code: 194, M-TMSI: 3234857110  
+UE Network Capability: Multiple DRB: 0, V2X PC5: 0, RestrictEC: 0, CP backoff: 0  
+UE Network Capability: ePCO: 0, HC-CP CIoT: 0, ERw/oPDN: 0, S1-U data: 0, UP CIoT: 0, CP CIoT: 1, ProSe-relay: 0, ProSe-dc: 0  
+UE Network Capability: ProSe-dd: 0, ProSe: 0, H.245-ASH: 0, ACC-CSFB: 1, LPP: 0, LCS: 0, 1xSRVCC: False, NF: 0  
+UE Network Capability: UCS2: False, UIA1: False, UIA2: False, UIA3: False, UIA4: False, UIA5: False, UIA6: False, UIA7: False  
+UE Network Capability: UEA0: False, UEA1: False, UEA2: False, UEA3: False, UEA4: False, UEA5: False, UEA6: False, UEA7: False  
+UE Network Capability: 128-EIA1: True, 128-EIA2: True, EIA3: True, EIA4: False, EIA5: False, EIA6: False, EIA7: False  
+UE Network Capability: EEA0: True, 128-EEA1: True, 128-EEA2: True, EEA3: True, EEA4: False, EEA5: False, EEA6: False, EEA7: False
+Embedded ESM Message (length: 46): L3 UL ESM PDN Connectivity Request
+[  
+		EPS Bearer Id: 0, 
+		Protocol discriminator: EPS Session Managment  
+		Procedure transaction identity: 12  
+		Message Type: PDN Connectivity Request  
+		PDN type: IPv4  
+		Request type: initial request  
+		ESM information transfer flag: security protected ESM information transfer required  
+		Protocol configuration options - 
+		. 	 Configuration protocol: PPP for use with IP PDP type or EPS without use of PPP
+		Protocol or container ID: 0x8021 - IPCP, Contents (16bytes): 0x01 00 00 10 81 06 00 00 00 00 83 06 00 00 00 00
+		Protocol or container ID: 0x0D - DNS Server IPv4 Address Request
+		Protocol or container ID: 0x0A - IP address allocation via NAS signalling
+		Protocol or container ID: 0x05
+		Protocol or container ID: 0x10 - IPv4 Link MTU Request
+		Protocol or container ID: 0x11  
+		Extended Protocol configuration options - 
+		. 	 Configuration protocol: should be interpreted as PPP (1)
+]
+
+Last Visited Registered TAI: MCC: China (460), MNC: 1, TAI: 6530  
+Additional Update Type:
+	PNB-CIoT: control plane CIoT EPS optimization, 
+	SAF: keeping the NAS signalling connection is not required, 
+	AUTV: no additional information.If received it shall be interpreted as request for combined attach or combined tracking area updating.  
+MS Network Feature Support:
+	Extended periodic timer: 0  
+MS Network Feature Support:
+	Extended periodic timer: 1  
+Extended DRX Parameters
+	Paging Time Window: 4, eDRX Value: 13
+
+  69 00 ED B0 27 1B C9 BD E7 00 00 00 01 09 05 00 07 41 41 0B F6 64 F0 10 88 02 C2 C0 D0 00 96 07 F0 70 00 00 10 04 01 00 2E 02 0C D0 11 D1 27 23 80 80 21 10 01 00 00 10 81 06 00 00 00 00 83 06 00 00 00 00 00 0D 00 00 0A 00 00 05 00 00 10 00 00 11 00 7B 00 01 01 52 64 F0 10 19 82 F4 E0 C1 6E 01 4D 00 00 00 00 00 00 
+
+
+000156 13:16:24.251 LTE RRC OTA message UL_CCCH-NB RRCConnectionRequest-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: UL_CCCH_Message_NB
+-   .   .message:- c1:- rrcConnectionRequest-r13
+-   .   .   .   .   .criticalExtensions:- rrcConnectionRequest-r13
+-   .   .   .   .   .   .   .ue-Identity-r13:- randomValue: 0111 0110 1011 1100 0110 1011 1010 0100 0101 1100 
+-   .   .   .   .   .   .   .establishmentCause-r13: 1 ( mo_Signalling)
+-   .   .   .   .   .   .   .multiToneSupport-r13: 0
+-   .   .   .   .   .   .   .earlyContentionResolution-r14: 0
+-   .   .   .   .   .   .   .cqi-NPDCCH-r14: 0
+-   .   .   .   .   .   .   .spare: 0
+
+  28 00 C0 B0 27 1B C9 BD E7 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 2D 00 00 00 00 09 00 2A ED 78 D7 48 B8 40 00 00 
+
+
+000168 13:16:24.677 LTE RRC OTA message DL-CCCH-NB RRCConnectionSetup-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 9, SysFN: 73
+
+LTE_Uu_RRC: DL_CCCH_Message_NB
+-   .   .message:- c1:- rrcConnectionSetup-r13
+-   .   .   .   .   .rrc-TransactionIdentifier: 2
+-   .   .   .   .   .criticalExtensions:- c1:- rrcConnectionSetup-r13
+-   .   .   .   .   .   .   .   .radioResourceConfigDedicated-r13
+-   .   .   .   .   .   .   .   .   .srb-ToAddModList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .rlc-Config-r13:- explicitValue:- am
+-   .   .   .   .   .   .   .   .   .   .   .   .   .ul-AM-RLC-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .   .   .t-PollRetransmit-r13: 9
+-   .   .   .   .   .   .   .   .   .   .   .   .   .   .maxRetxThreshold-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .   .dl-AM-RLC-r13
+-   .   .   .   .   .   .   .   .   .   .logicalChannelConfig-r13:- defaultValue: null
+-   .   .   .   .   .   .   .   .   .mac-MainConfig-r13:- explicitValue-r13
+-   .   .   .   .   .   .   .   .   .   .   .ul-SCH-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .periodicBSR-Timer-r13: 6 ( infinity)
+-   .   .   .   .   .   .   .   .   .   .   .   .retxBSR-Timer-r13: 3 ( pp128)
+-   .   .   .   .   .   .   .   .   .   .   .timeAlignmentTimerDedicated-r13: 7 ( infinity)
+-   .   .   .   .   .   .   .   .   .   .   .logicalChannelSR-Config-r13:- setup
+-   .   .   .   .   .   .   .   .   .   .   .   .   .logicalChannelSR-ProhibitTimer-r13: 3 ( pp128)
+-   .   .   .   .   .   .   .   .   .physicalConfigDedicated-r13
+-   .   .   .   .   .   .   .   .   .   .npdcch-ConfigDedicated-r13
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-USS-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-USS-r13: 0
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigDedicated-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-r13: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlDedicated-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-UE-NPUSCH-r13: 0
+
+  29 00 C0 B0 6B 09 1E BF E7 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 99 04 2B 00 00 00 00 0A 00 38 13 32 5A 5E 7E CE 44 82 00 
+
+
+000172 13:16:24.678 Secured L3 UL EMM Attach Request (L3 UL ESM PDN Connectivity Request) UL-DCCH-NB RRCConnectionSetupComplete-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 3, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: UL_DCCH_Message_NB
+-   .   .message:- c1:- rrcConnectionSetupComplete-r13
+-   .   .   .   .   .rrc-TransactionIdentifier: 2
+-   .   .   .   .   .criticalExtensions:- rrcConnectionSetupComplete-r13
+-   .   .   .   .   .   .   .selectedPLMN-Identity-r13: 1
+-   .   .   .   .   .   .   .registeredMME-r13
+-   .   .   .   .   .   .   .   .mmegi: 34818
+-   .   .   .   .   .   .   .   .mmec: 194
+-   .   .   .   .   .   .   .dedicatedInfoNAS-r13
+
+Security Header Type: Security protected NAS message: Integrity protected
+Authentication Code: 0x43 0x17 0xc 0x6b, Sequence Number: 4
+Secured NAS message:
+  
+Security Header Type: Plain NAS message, not security protected, 
+Protocol discriminator: EPS Mobility Managment  
+Message Type: Attach Request  
+Type of security context: native security context (for KSI_ASME), 
+NAS key set identifier: 4  
+EPS attach type: EPS only
+Old GUTI: MCC: China (460), MNC: 1, MME Group ID: 34818, MME Code: 194, M-TMSI: 3234857110  
+UE Network Capability: Multiple DRB: 0, V2X PC5: 0, RestrictEC: 0, CP backoff: 0  
+UE Network Capability: ePCO: 0, HC-CP CIoT: 0, ERw/oPDN: 0, S1-U data: 0, UP CIoT: 0, CP CIoT: 1, ProSe-relay: 0, ProSe-dc: 0  
+UE Network Capability: ProSe-dd: 0, ProSe: 0, H.245-ASH: 0, ACC-CSFB: 1, LPP: 0, LCS: 0, 1xSRVCC: False, NF: 0  
+UE Network Capability: UCS2: False, UIA1: False, UIA2: False, UIA3: False, UIA4: False, UIA5: False, UIA6: False, UIA7: False  
+UE Network Capability: UEA0: False, UEA1: False, UEA2: False, UEA3: False, UEA4: False, UEA5: False, UEA6: False, UEA7: False  
+UE Network Capability: 128-EIA1: True, 128-EIA2: True, EIA3: True, EIA4: False, EIA5: False, EIA6: False, EIA7: False  
+UE Network Capability: EEA0: True, 128-EEA1: True, 128-EEA2: True, EEA3: True, EEA4: False, EEA5: False, EEA6: False, EEA7: False
+Embedded ESM Message (length: 46): L3 UL ESM PDN Connectivity Request
+[  
+		EPS Bearer Id: 0, 
+		Protocol discriminator: EPS Session Managment  
+		Procedure transaction identity: 12  
+		Message Type: PDN Connectivity Request  
+		PDN type: IPv4  
+		Request type: initial request  
+		ESM information transfer flag: security protected ESM information transfer required  
+		Protocol configuration options - 
+		. 	 Configuration protocol: PPP for use with IP PDP type or EPS without use of PPP
+		Protocol or container ID: 0x8021 - IPCP, Contents (16bytes): 0x01 00 00 10 81 06 00 00 00 00 83 06 00 00 00 00
+		Protocol or container ID: 0x0D - DNS Server IPv4 Address Request
+		Protocol or container ID: 0x0A - IP address allocation via NAS signalling
+		Protocol or container ID: 0x05
+		Protocol or container ID: 0x10 - IPv4 Link MTU Request
+		Protocol or container ID: 0x11  
+		Extended Protocol configuration options - 
+		. 	 Configuration protocol: should be interpreted as PPP (1)
+]
+
+Last Visited Registered TAI: MCC: China (460), MNC: 1, TAI: 6530  
+Additional Update Type:
+	PNB-CIoT: control plane CIoT EPS optimization, 
+	SAF: keeping the NAS signalling connection is not required, 
+	AUTV: no additional information.If received it shall be interpreted as request for combined attach or combined tracking area updating.  
+MS Network Feature Support:
+	Extended periodic timer: 0  
+MS Network Feature Support:
+	Extended periodic timer: 1  
+Extended DRX Parameters
+	Paging Time Window: 4, eDRX Value: 13
+
+  7F 00 C0 B0 B2 28 1F BF E7 00 00 00 0F 0D 21 03 95 00 A8 0E 00 00 00 00 2E 00 00 00 00 60 00 14 40 22 00 B0 96 45 D0 C5 C3 1A C1 01 D0 50 42 FD 99 3C 04 22 00 B0 B0 34 00 25 81 FC 1C 00 00 04 01 00 40 0B 80 83 34 04 74 49 C8 E0 20 08 44 00 40 00 04 20 41 80 00 00 00 20 C1 80 00 00 00 00 03 40 00 02 80 00 01 40 00 04 00 00 04 40 1E C0 00 40 54 99 3C 04 06 60 BD 38 30 5B 80 53 40 
+
+
+000191 13:16:24.837 L3 DL EMM Attach Reject DL-DCCH-NB DLInformationTransfer-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 3, PCI: 149, EARFCN: 3752, SubFN: 9, SysFN: 89
+
+LTE_Uu_RRC: DL_DCCH_Message_NB
+-   .   .message:- c1:- dlInformationTransfer-r13
+-   .   .   .   .   .rrc-TransactionIdentifier: 2
+-   .   .   .   .   .criticalExtensions:- c1:- dlInformationTransfer-r13
+-   .   .   .   .   .   .   .   .dedicatedInfoNAS-r13
+  
+Security Header Type: Plain NAS message, not security protected, 
+Protocol discriminator: EPS Mobility Managment  
+Message Type: Attach Reject  
+EMM Cause: Information element non-existent or not implemented
+
+  25 00 C0 B0 8B 09 9E BF E7 00 00 00 0F 0D 21 03 95 00 A8 0E 00 00 99 05 2C 00 00 00 00 06 00 08 00 C1 D1 18 C0 
+
+
+000192 13:16:24.837 LTE RRC OTA message DL-DCCH-NB RRCConnectionRelease-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 3, PCI: 149, EARFCN: 3752, SubFN: 9, SysFN: 89
+
+LTE_Uu_RRC: DL_DCCH_Message_NB
+-   .   .message:- c1:- rrcConnectionRelease-r13
+-   .   .   .   .   .rrc-TransactionIdentifier: 3
+-   .   .   .   .   .criticalExtensions:- c1:- rrcConnectionRelease-r13
+-   .   .   .   .   .   .   .   .releaseCause-r13: 1 ( other)
+
+  21 00 C0 B0 8B 09 9E BF E7 00 00 00 0F 0D 21 03 95 00 A8 0E 00 00 99 05 2C 00 00 00 00 02 00 2C 02 
+
+
+000193 13:16:24.837 L3 DL EMM Attach Reject
+
+Version: 1
+NAS Release: 9, NAS Major Version: 5, NAS Minor Version: 0  
+Security Header Type: Plain NAS message, not security protected, 
+Protocol discriminator: EPS Mobility Managment  
+Message Type: Attach Reject  
+EMM Cause: Information element non-existent or not implemented
+
+  13 00 EC B0 8B 09 9E BF E7 00 00 00 01 09 05 00 07 44 63 
+
+
+000230 13:16:55.601 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 94
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 F2 9D C1 1F E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 05 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000250 13:16:57.228 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 1, SysFN: 257
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 F6 50 D7 24 E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 11 10 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000276 13:17:27.448 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 0A 05 47 83 E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000277 13:17:27.601 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 222
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 87 A7 C1 83 E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 0D 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000285 13:17:57.768 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 5C 0C 07 E2 E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000296 13:17:58.001 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 190
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 85 B1 C1 E2 E8 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 0B 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000311 13:18:28.168 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 2B 2F 07 41 E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000322 13:18:28.401 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 158
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 54 BA C1 41 E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 09 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000337 13:18:58.568 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 B2 38 07 A0 E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000355 13:18:58.802 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 126
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 83 04 C2 A0 E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 07 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000363 13:19:28.968 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 48 28 07 FF E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000381 13:19:29.202 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 94
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 A6 0D C2 FF E9 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 05 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000389 13:19:59.368 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 0C 33 07 5E EA 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000407 13:19:59.602 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 62
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 9C 17 C2 5E EA 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 03 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000415 13:20:29.768 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 50 3D 07 BD EA 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000426 13:20:30.002 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 30
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 F4 20 C2 BD EA 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 01 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000441 13:21:00.168 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 62 47 07 1C EB 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000452 13:21:00.402 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 1022
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 4A 2B C2 1C EB 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 3F 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 
+
+
+000467 13:21:30.568 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformation-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 0, SysFN: 0
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformation-r13
+-   .   .   .   .   .criticalExtensions:- systemInformation-r13
+-   .   .   .   .   .   .   .sib-TypeAndInfo-r13 [ 0 ]:- sib2-r13
+-   .   .   .   .   .   .   .   .   .radioResourceConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .rach-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .preambleTransMax-CE-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .   .powerRampingParameters-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .powerRampingStep: 1 ( dB2)
+-   .   .   .   .   .   .   .   .   .   .   .   .preambleInitialReceivedTargetPower: 8 ( dBm_104)
+-   .   .   .   .   .   .   .   .   .   .   .rach-InfoList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .ra-ResponseWindowSize-r13: 7 ( pp10)
+-   .   .   .   .   .   .   .   .   .   .   .   .mac-ContentionResolutionTimer-r13: 5 ( pp16)
+-   .   .   .   .   .   .   .   .   .   .bcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .modificationPeriodCoeff-r13: 0
+-   .   .   .   .   .   .   .   .   .   .pcch-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .defaultPagingCycle-r13: 1 ( rf256)
+-   .   .   .   .   .   .   .   .   .   .   .nB-r13: 8 ( one64thT)
+-   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitionPaging-r13: 7 ( r128)
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-r13
+-   .   .   .   .   .   .   .   .   .   .   .nprach-CP-Length-r13: 1
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-r13 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-Periodicity-r13: 4
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-StartTime-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierOffset-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumSubcarriers-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-SubcarrierMSG3-RangeStart-r13: 3
+-   .   .   .   .   .   .   .   .   .   .   .   .maxNumPreambleAttemptCE-r13: 2 ( n5)
+-   .   .   .   .   .   .   .   .   .   .   .   .numRepetitionsPerPreambleAttempt-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-NumRepetitions-RA-r13: 2 ( r4)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-StartSF-CSS-RA-r13: 1 ( v2)
+-   .   .   .   .   .   .   .   .   .   .   .   .npdcch-Offset-RA-r13: 0 ( zero)
+-   .   .   .   .   .   .   .   .   .   .npdsch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .nrs-Power-r13: 18
+-   .   .   .   .   .   .   .   .   .   .npusch-ConfigCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .ack-NACK-NumRepetitions-Msg4-r13 [ 0 ]: 0 ( r1)
+-   .   .   .   .   .   .   .   .   .   .   .ul-ReferenceSignalsNPUSCH-r13
+-   .   .   .   .   .   .   .   .   .   .   .   .groupHoppingEnabled-r13: 0
+-   .   .   .   .   .   .   .   .   .   .   .   .groupAssignmentNPUSCH-r13: 13
+-   .   .   .   .   .   .   .   .   .   .uplinkPowerControlCommon-r13
+-   .   .   .   .   .   .   .   .   .   .   .p0-NominalNPUSCH-r13: -80
+-   .   .   .   .   .   .   .   .   .   .   .alpha-r13: 7
+-   .   .   .   .   .   .   .   .   .   .   .deltaPreambleMsg3-r13: 1
+-   .   .   .   .   .   .   .   .   .   .nprach-Config-v1330
+-   .   .   .   .   .   .   .   .   .   .   .nprach-ParametersList-v1330 [ 0 ]
+-   .   .   .   .   .   .   .   .   .   .   .   .nprach-NumCBRA-StartSubcarriers-r13: 15
+-   .   .   .   .   .   .   .   .   .ue-TimersAndConstants-r13
+-   .   .   .   .   .   .   .   .   .   .t300-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t301-r13: 2 ( ms6000)
+-   .   .   .   .   .   .   .   .   .   .t310-r13: 6 ( ms8000)
+-   .   .   .   .   .   .   .   .   .   .n310-r13: 6 ( n10)
+-   .   .   .   .   .   .   .   .   .   .t311-r13: 0 ( ms1000)
+-   .   .   .   .   .   .   .   .   .   .n311-r13: 0 ( n1)
+-   .   .   .   .   .   .   .   .   .freqInfo-r13
+-   .   .   .   .   .   .   .   .   .   .ul-CarrierFreq-r13
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreq-r13: 21752
+-   .   .   .   .   .   .   .   .   .   .   .carrierFreqOffset-r13: 11 ( v0)
+-   .   .   .   .   .   .   .   .   .   .additionalSpectrumEmission-r13: 1
+-   .   .   .   .   .   .   .   .   .timeAlignmentTimerCommon-r13: 7 ( infinity)
+
+  39 00 C0 B0 8B 4F 07 7B EB 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 00 00 29 04 00 00 00 1A 00 00 00 43 30 7A 30 E9 00 34 08 93 80 1A 5D D0 08 0C F1 2D 80 C5 4F 85 83 80 00 
+
+
+000485 13:21:30.802 LTE RRC OTA message BCCH-DL_SCH-NB SystemInformationBlockType1-NB
+
+Version: 15, RRC Release: 13, RRC Version: 21
+
+RB Id: 0, PCI: 149, EARFCN: 3752, SubFN: 4, SysFN: 990
+
+LTE_Uu_RRC: BCCH_DL_SCH_Message_NB
+-   .   .message:- c1:- systemInformationBlockType1-r13
+-   .   .   .   .   .hyperSFN-MSB-r13: 33
+-   .   .   .   .   .cellAccessRelatedInfo-r13
+-   .   .   .   .   .   .plmn-IdentityList-r13 [ 0 ]
+-   .   .   .   .   .   .   .plmn-Identity-r13
+-   .   .   .   .   .   .   .   .mcc [ 0 ]: 4
+-   .   .   .   .   .   .   .   .mcc [ 1 ]: 6
+-   .   .   .   .   .   .   .   .mcc [ 2 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 0 ]: 0
+-   .   .   .   .   .   .   .   .mnc [ 1 ]: 1
+-   .   .   .   .   .   .   .cellReservedForOperatorUse-r13: 1
+-   .   .   .   .   .   .trackingAreaCode-r13: 6530
+-   .   .   .   .   .   .cellIdentity-r13: 243543581 ( eNB_Id: 951342, Cell_Id: 29 )
+-   .   .   .   .   .   .cellBarred-r13: 1
+-   .   .   .   .   .   .intraFreqReselection-r13: 1
+-   .   .   .   .   .cellSelectionInfo-r13
+-   .   .   .   .   .   .q-RxLevMin-r13: -50 (-100.0 dBm)
+-   .   .   .   .   .   .q-QualMin-r13: -34 (-34)
+-   .   .   .   .   .freqBandIndicator-r13: 8
+-   .   .   .   .   .eutraControlRegionSize-r13: 2
+-   .   .   .   .   .nrs-CRS-PowerOffset-r13: 4
+-   .   .   .   .   .schedulingInfoList-r13 [ 0 ]
+-   .   .   .   .   .   .si-Periodicity-r13: 2
+-   .   .   .   .   .   .si-RepetitionPattern-r13: 1
+-   .   .   .   .   .   .sib-MappingInfo-r13
+-   .   .   .   .   .   .si-TB-r13: 2
+-   .   .   .   .   .si-WindowLength-r13: 3
+
+  39 00 C0 B0 50 4D C2 7B EB 00 00 00 0F 0D 21 00 95 00 A8 0E 00 00 E4 3D 29 02 00 00 00 1A 00 43 02 10 A3 00 06 33 05 D0 85 C3 BA 80 07 90 24 09 80 00 00 00 00 00 00 00 00 

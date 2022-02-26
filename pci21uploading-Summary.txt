@@ -1,0 +1,44 @@
+﻿
+0x1FEA Diagnostic Request                                   263
+0x1FF0 Diagnostic Response Status                           263
+0x1FFB Event                                               1151
+0x1FFC Annotation                                            15
+0x1FFD Diagnostic Version                                     1
+0xB060 LTE MAC Configuration                                  6
+0xB061 LTE MAC Rach Trigger                                  12
+0xB062 LTE MAC Rach Attempt                                  12
+0xB063 LTE MAC DL Transport Block                           215
+0xB064 LTE MAC UL Transport Block                           145
+0xB065 Reserved                                             465
+0xB066 Reserved                                             465
+0xB067 LTE Mac UL Tx Statistics                             185
+0xB081 LTE RLC DL Config Log packet                           4
+0xB082 LTE RLC DL AM All PDU                                202
+0xB087 LTE RLC DL Statistics                                147
+0xB091 LTE RLC UL Config Log packet                           4
+0xB092 LTE RLC UL AM All PDU                               4810
+0xB097 LTE RLC UL Statistics                                131
+0xB0C0 LTE RRC OTA Packet                                   202
+0xB0C1 LTE RRC MIB Message Log Packet                         2
+0xB0C2 LTE RRC Serving Cell Info Log Pkt                      2
+0xB0E1 LTE NAS ESM Security Protected Outgoing Msg          168
+0xB0E2 LTE NAS ESM Plain OTA Incoming Message                21
+0xB0E3 LTE NAS ESM Plain OTA Outgoing Message               168
+0xB0E4 LTE NAS ESM Bearer Context State                       3
+0xB0E5 LTE NAS ESM Bearer Context Info                       20
+0xB0E6 LTE NAS ESM Procedure State                            2
+0xB0EA LTE NAS EMM Security Protected Incoming Msg           22
+0xB0EB LTE NAS EMM Security Protected Outgoing Msg            5
+0xB0EC LTE NAS EMM Plain OTA Incoming Message                 2
+0xB0ED LTE NAS EMM Plain OTA Outgoing Message                 4
+0xB0EE LTE NAS EMM State                                     11
+0xB0F5 LTE NAS EMM USIM Service Table                         1
+0xB0F6 LTE NAS EMM Forbidden TAI List                         1
+0xB240 LTE NB1 Random Access Request (MSG1) Report           12
+0xB241 LTE NB1 Random Access Response (MSG2) Report          12
+0xB242 LTE NB1 UE Identification Message (MSG3) Report       12
+0xB243 LTE NB1 Contention Resolution Message (MSG4) Report    12
+0xB244 LTE NB1 ML1 GM DCI Info                              453
+0xB245 LTE NB1 ML1 GM TX Report                             455
+0xB246 LTE NB1 ML1 GM PDSCH STAT Ind                        162
+0xB24B LTE NB1 ML1 Sum Sys Info                             492
